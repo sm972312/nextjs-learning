@@ -1,7 +1,12 @@
 self.__BUILD_MANIFEST = {
   "__rewrites": {
     "afterFiles": [],
-    "beforeFiles": [],
+    "beforeFiles": [
+      {
+        "source": "/ucmas_new_website//_next/:path+",
+        "destination": "/ucmas_new_website/_next/:path+"
+      }
+    ],
     "fallback": []
   },
   "sortedPages": [
