@@ -44,7 +44,7 @@ export default function Navbar() {
               <li><Link href="/contact">Contact</Link></li>
             </ul>
           </div>
-        )}
+        )} 
 
       </Container>
     </nav>
